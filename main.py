@@ -11,3 +11,8 @@ def read_root():
 @app.get("/get-file")
 def get_file():
     return {"message": "This API works fine."}
+
+@app.get("/get-name")
+def get_file():
+    return {"message": "three idiots."}
+
